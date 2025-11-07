@@ -289,9 +289,16 @@ elif menu == "Predict & Download":
 
 else:
     st.header("About this app")
-    st.markdown(\"\"\"
-    This Streamlit dashboard was created to support marketing decision-making for Personal Loan offers.
-    - EDA charts for segment/targeting decisions.
-    - Train Decision Tree, Random Forest, Gradient Boosting and view performance metrics.
-    - Upload new data and predict personal loan acceptance; download labeled file for campaign lists.
-    \"\"\")
+    st.markdown("""
+    ### Universal Bank — Marketing Dashboard
+    This Streamlit dashboard helps marketing teams make data-driven decisions.
+
+    **Capabilities:**
+    - 📊 EDA: Explore 5 action-oriented charts for targeting and segmentation.
+    - 🤖 Modeling: Train Decision Tree, Random Forest, and Gradient Boosting models.
+    - 📈 Metrics: Compare accuracies, ROC curves, confusion matrices, and feature importances.
+    - 📂 Predictions: Upload new data, generate predicted labels, and download results.
+
+    **Created for:** Marketing Heads and Analysts at Universal Bank  
+    **Developed with:** Streamlit + Scikit-learn + Matplotlib + Seaborn
+    """)
